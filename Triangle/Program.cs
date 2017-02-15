@@ -17,6 +17,19 @@ namespace Triangle
             this.coordinateY = coordinateY;
         }
     }
+
+    class Edge
+    {
+        public Point pointA;
+        public Point pointB;
+        public double LenghtSegment; // длина отрезка
+        public Edge(Point pointA, Point pointB, double LenghtSegment)
+        {
+            this.pointA = pointA;
+            this.pointB = pointB;
+            this.LenghtSegment = LenghtSegment;
+        }
+    }
     class Program
     {
         public static void RandomCoordinate(Point [] points )
@@ -28,11 +41,18 @@ namespace Triangle
                 Console.WriteLine("ваши точки x={0} и y={1}" , points[i].coordinateX, points[i].coordinateY);
             }
         }
+
+        public static void RandomEdge(Point pointA, Point pointB, double LenghtSegment)//МЕТОД ПОССТРОЕНИЯ ребра
+        {
+
+        }
         static void Main(string[] args)
         {
             Point[] points = new Point[3];
             RandomCoordinate(points);
 
+            Edge[] edges = new Edge[3];
+            RandomEdge(points,edges); // рандомно строю ребра
             Console.ReadKey();
         }
         
