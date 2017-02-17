@@ -29,6 +29,11 @@ namespace Triangle
             this.pointB = pointB;
             this.LenghtSegment = LenghtSegment;
         }
+        
+        public double LenghtSegment (Point pointA, Point pointB)
+        {
+            return Math.Scrt
+        }
     }
     class Program
     {
