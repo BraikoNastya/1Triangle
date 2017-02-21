@@ -43,11 +43,17 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="..\..\..\2 семестр\прог\Program2.cs" />
-    <Compile Include="Edge.cs" />
-    <Compile Include="Point.cs" />
+    <Compile Include="..\..\..\2 семестр\прог\Edge.cs">
+      <Link>Edge.cs</Link>
+    </Compile>
+    <Compile Include="..\..\..\2 семестр\прог\Point.cs">
+      <Link>Point.cs</Link>
+    </Compile>
+    <Compile Include="..\..\..\2 семестр\прог\доработанная.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Tringle.cs" />
+    <Compile Include="..\..\..\2 семестр\прог\Tringle.cs">
+      <Link>Tringle.cs</Link>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

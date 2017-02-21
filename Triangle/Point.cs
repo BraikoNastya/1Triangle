@@ -15,6 +15,6 @@ namespace Triangle
         {
             this.coordinateX = coordinateX;
             this.coordinateY = coordinateY;
-        }
+        } 
     }
 }
