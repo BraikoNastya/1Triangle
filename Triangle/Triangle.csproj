@@ -49,7 +49,9 @@
     <Compile Include="..\..\..\2 семестр\прог\Point.cs">
       <Link>Point.cs</Link>
     </Compile>
-    <Compile Include="..\..\..\2 семестр\прог\доработанная.cs" />
+    <Compile Include="..\..\..\Program.cs">
+      <Link>Program.cs</Link>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="..\..\..\2 семестр\прог\Tringle.cs">
       <Link>Tringle.cs</Link>
